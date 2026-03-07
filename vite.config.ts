@@ -18,4 +18,8 @@ export default defineConfig({
       'figma:asset': path.resolve(__dirname, './src/assets'),
     },
   },
+  server: {
+    middlewareMode: false,
+  },
+  publicDir: 'public',
 })
