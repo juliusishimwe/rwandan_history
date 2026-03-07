@@ -1,0 +1,13 @@
+# Allow all search engines to crawl
+User-agent: *
+Allow: /
+
+# Specify the sitemap location
+Sitemap: https://yourwebsite.com/sitemap.xml
+
+# Crawl delay for bots (in seconds)
+Crawl-delay: 1
+
+# Block specific paths if needed (commented out as example)
+# Disallow: /private/
+# Disallow: /admin/
