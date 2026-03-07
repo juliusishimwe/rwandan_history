@@ -2,6 +2,14 @@
 User-agent: *
 Allow: /
 
+# Bing specific
+User-agent: Bingbot
+Allow: /
+
+# Google specific
+User-agent: Googlebot
+Allow: /
+
 # Specify the sitemap location
 Sitemap: https://yourwebsite.com/sitemap.xml
 
@@ -11,3 +19,7 @@ Crawl-delay: 1
 # Block specific paths if needed (commented out as example)
 # Disallow: /private/
 # Disallow: /admin/
+
+# Allow verification files
+Allow: /google9f2dd391a31ef5d9.html
+Allow: /googleverifyme.html
